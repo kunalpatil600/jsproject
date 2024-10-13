@@ -1,6 +1,6 @@
 let productData
 function Fetchdata(){
-    const store=fetch("https://js-json-js.onrender.com/posts")
+    const store=fetch("https://js-project-vutd.onrender.com/posts")
     .then((res)=>res.json()) 
     .then((data)=>{cardlist(data)
         productData=data

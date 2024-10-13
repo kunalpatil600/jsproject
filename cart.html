@@ -617,7 +617,7 @@
             price:parma.get("price"),
             image:parma.get("image"),
           }
-         fetch("https://js-json-js.onrender.com/card",{
+         fetch("https://js-project-vutd.onrender.com/card",{
           method:"POST",
           headers:{
            "Content-type":"application/json"
@@ -631,7 +631,7 @@
          
         let catdata
 function Fetchdata(){
-    const store=fetch("https://js-json-js.onrender.com/card")
+    const store=fetch("https://js-project-vutd.onrender.com/card")
     .then((res)=>res.json()) 
     .then((data)=>{cardList(data)
       catdata=data
@@ -675,7 +675,7 @@ if(e.target.classList.contains("card-delete"))
  }
 })
 function delteproduct(id){
-fetch(`https://js-json-js.onrender.com/card/${id}`,{
+fetch(`https://js-project-vutd.onrender.com/card${id}`,{
 method:'DELETE'
 })
 .then((res)=>res.json())
@@ -690,7 +690,7 @@ method:'DELETE'
       <script>
          let productData
 function Fetchdata(){
-    const store=fetch("https://js-json-js.onrender.com/cart")
+    const store=fetch("https://js-project-vutd.onrender.com/cart")
     .then((res)=>res.json()) 
     .then((data)=>{cardlist(data)
         productData=data
