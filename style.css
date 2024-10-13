@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.img 
+{
+  background: radial-gradient(circle, rgba(0,0,0,0.28904061624649857) 100%, rgba(148,187,233,1) 100%),url(https://panafrica-store.com/cdn/shop/files/Header_site_internet_AKANDA-FEUILLES.jpg?v=1712846548&width=2000);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.slid-me{
+  transform: rotate(-0.25turn); 
+  height: 60px; 
+  position: absolute;
+   margin-top: 120px; 
+   font-weight: 1000;
+   opacity: 50%;
+}
+.shoes:hover
+{
+  transform:scale(1.1);
+  transition: 1s;
+}
+.shoes-2
+{
+  background-color: #E7EAE9;
+}
+.shoes3
+{
+  background-color:#EAECEB;
+}
+
+.shoes-2 .img-1 {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/SAH-451_Sahara-argile_01_efdc0a62-4ce0-4581-83e2-6e8d9f37475e.jpg?v=1724937030&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-1:hover 
+{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/SAH-451_Sahara-argile_04_1ec0af5a-c886-4ecd-818a-cd04043901c4.jpg?v=1724937030&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.shoes-3x{
+  display: none;
+}
+.shoes-2:hover .shoes-3x 
+{
+  display: block;
+}
+.shoes-2:hover .shoes3{
+  display: none;
+
+}
+.img-2{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/AK-453_Akanda-ocean_01_f4ce3afb-33ed-49ab-a69e-47f73a03c119.jpg?v=1724853150&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-2:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/AK-453_Akanda-ocean_04_de5f4178-d899-4a7b-b54e-3ec77cca4b79.jpg?v=1724853150&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-3{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-453_Arusha-rose_01_03caae8c-4cd5-4abe-9c44-00304a8f36ad.jpg?v=1724947955&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-3:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-453_Arusha-rose_04_e5fe6580-6b3f-42d2-b5c6-299c85b36cfd.jpg?v=1724947955&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-4{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/Kasai-Bleu-1917216.jpg?v=1722326915&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-4:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/Kasai-Bleu-1917219.jpg?v=1722326928&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-1x{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/Sahara-Bonbon-1918209.jpg?v=1722328969&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-1x:hover{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/Sahara-Bonbon-1918226.jpg?v=1722328985&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-2x{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-453_Arusha-rose_01_03caae8c-4cd5-4abe-9c44-00304a8f36ad.jpg?v=1724947955&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-2x:hover 
+{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-453_Arusha-rose_04_e5fe6580-6b3f-42d2-b5c6-299c85b36cfd.jpg?v=1724947955&width=400');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+
+@media (min-width: 576px) {
+  .img-2{
+    width: 230px;
+    height: 260px;
+  }
+  .img-2:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-3{
+    width: 230px;
+    height: 260px;
+  }
+  .img-3:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-1x{
+    width: 230px;
+    height: 260px; 
+  }
+  .img-1x:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-2x
+  {
+    width: 230px;
+    height: 260px;
+  }
+  .img-2x:hover{
+    width: 230px;
+    height: 260px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-2{
+    width: 280px;
+    height: 300px;
+
+  }
+ 
+  .img-2:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-3{
+    width: 280px;
+    height: 300px;
+  }
+  .img-3:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-1x{
+    width: 280px;
+    height: 300px;
+  }
+  .img-1x:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-2x
+  {
+    width: 280px;
+    height: 300px;
+  }
+  .img-2x:hover{
+    width: 280px;
+    height: 300px;
+  }
+}
+
+@media (min-width:992px){
+  .shoes-2 .img-1{
+    width: 280px;
+    height: 300px;
+
+  }
+   .shoes3{
+    width: 314px;
+   }
+  
+}
+@media (min-width:1200px){
+  .img-4{
+    width: 280px;
+    height: 300px;
+
+  }
+  .img-4x{
+    width: 280px;
+    height: 300px; 
+  }
+}
+@media (min-width:1400px){
+  
+.img-4:hover {
+  width: 280px;
+    height: 300px; 
+}
+}
